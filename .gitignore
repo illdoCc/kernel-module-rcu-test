@@ -1,0 +1,35 @@
+# Linux kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.symvers
+*.order
+
+# Kernel module metadata
+Module.symvers
+modules.order
+Module.markers
+
+# Generated signing keys / certs
+*.priv
+*.der
+*.pem
+MOK.priv
+MOK.der
+
+# Logs
+*.log
+log.txt
+
+# Temporary / editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build directories
+.tmp_versions/
+.cache.mk
